@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="cover hidden">
+      <p>Press any key to get the JavaScript event keycode</p>
+    </div>
+    <div class="container">
+      <!-- DISPLAY THE KEYCODE (VERY LARG) -->
+      <div class="display-big">0</div>
+      <!-- DISPLAY THE PRESSED KEY'S INFO -->
+      <div class="boxes">
+        <!-- DISPLAY EVENT.KEY -->
+        <div class="box box--key">
+          <div class="box__header">event.key</div>
+          <div class="box__display-feild event--key">0</div>
+        </div>
+        <!-- DISPLAY EVENT.LOCATION -->
+        <div class="box box--location">
+          <div class="box__header">event.location</div>
+          <div class="box__display-feild event--location">
+            <span>0</span>
+            <span>specification</span>
+          </div>
+        </div>
+        <!-- DISPLAY EVENT.WHICH -->
+        <div class="box box--which">
+          <div class="box__header">event.which</div>
+          <div class="box__display-feild event--which">0</div>
+        </div>
+        <!-- DISPLAY EVENT.CODE -->
+        <div class="box box--code">
+          <div class="box__header">event.code</div>
+          <div class="box__display-feild event--code">0</div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
