@@ -1,0 +1,87 @@
+@media only screen and (max-width: 1370px) {
+  .box--location span:last-of-type {
+    font-size: 1.5rem;
+  }
+  .box__display-feild {
+    font-size: 3rem;
+  }
+
+  .box {
+    margin: 1rem 2rem;
+    width: 30rem;
+  }
+  .boxes {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .container {
+    padding: 2.5rem 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 969px) {
+  .boxes {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+  }
+
+  .display-big {
+    margin: 5rem 0 5rem 0;
+  }
+  .copied--1,
+  .copied--2 {
+    top: 9.5rem;
+  }
+}
+
+@media only screen and (max-width: 956px) {
+  .signature {
+    display: none;
+  }
+}
+@media only screen and (max-width: 710px) {
+  .box--location span:last-of-type {
+    font-size: 1.1rem;
+  }
+  .box__display-feild {
+    font-size: 2.7rem;
+  }
+
+  .box {
+    margin: 1rem 1rem;
+    width: 20rem;
+  }
+  .boxes {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .display-big {
+    margin: 5rem 0 8rem 0;
+    font-size: 40rem;
+  }
+
+  .copied--1,
+  .copied--2 {
+    height: 3rem;
+    font-size: 1.7rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 653px) {
+  .box {
+    width: 18rem;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  .boxes {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
